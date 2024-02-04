@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Chessboard")),
+        appBar: AppBar(
+          title: const Text("CHESSBOARD"),
+        ),
         body: Center(
           child: SingleChildScrollView(
             scrollDirection: Axis.horizontal,
